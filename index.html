@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="center">
+            <div class="row">
+                <!-- <img class="logo"src="./assets/img/prueba1.jpg" alt=""> -->
+            <ul class="nav">
+                <li><a href="#">Conocimientos</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+             </div>
+        </nav> 
+
+        <div class="home-container">
+            <h1>Luis Rodriguez developer</h1>
+            <a class="btn btn-contact"href="#">Contacto</a>
+            <a class="btn btn-more"href="#">Ver mas</a>
+           
+        </div>
+    </header>
+
+    <section class="section-descripcion">
+        <div class="row">
+            <h2>Mis Conocimientos</h2>
+            <p class="text-center">
+                Soy un Joven Developer con experiencia Front-End usando Html5, Css3, Bootstrap4, JavaScript, Conocimientos con base de datos relacional MySql, Responsive Desive
+                algunos conocimientos en php usando Framework laravel, actualmente aprendiendo Node.js y React
+            </p>
+        </div>
+    </section>
+
+    <section class="section-image">
+        <h2>Proyectos</h2>
+        <ul class="proycts-imagen">
+            <li><figure class="photo"><img src="/assets/img/img3.jpg" alt=""></figure></li>
+            <li><figure class="photo"><img src="/assets/img/img3.jpg" alt=""></figure></li>
+            <li><figure class="photo"><img src="/assets/img/img3.jpg" alt=""></figure></li>
+            <li><figure class="photo"><img src="/assets/img/img3.jpg" alt=""></figure></li>
+            
+        </ul>
+        <ul class="proycts-imagen">
+            <li><figure class="photo"><img src="/assets/img/img3.jpg" alt=""></figure></li>
+            <li><figure class="photo"><img src="/assets/img/img3.jpg" alt=""></figure></li>
+            <li><figure class="photo"><img src="/assets/img/img3.jpg" alt=""></figure></li>
+            <li><figure class="photo"><img src="/assets/img/img3.jpg" alt=""></figure></li>
+        </ul>
+    </section>
+
+    <section class="section-form">
+        <div class="row">
+            <h2>Comentarios</h2>
+        </div>
+        <di class="row">
+            <form action="POST" class="contact-form">
+                <!-- nombre -->
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Nombre</label>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <input type="text" name="name" id="name" placeholder="Ingresa tu nombre">
+                    </div> 
+                </div>
+                     <!-- email -->
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <input type="email" name="email" required id="email" placeholder="Ingresa tu Correo">
+                    </div> 
+                </div>
+                     <!-- notificaciones -->
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="news">¿Deseas recibir noticias?</label>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <input type="checkbox" name="news" required id="news" placeholder="Si estoy de acuerdo">
+                    </div> 
+                </div>
+                     <!-- comentario -->
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="message">Deja tu comentario</label>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
+                    </div>                     
+                </div>
+                     <!-- boton -->
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for=">&nbsp;</label>
+                    </div>
+                    <div class="col span-1-of-3">
+                        <input type="submit" name="btn" required id="btn" value="Enviar">
+                    </div>                     
+                </div>
+            </form>
+        </di>
+    </section>
+
+<!-- footer -->
+    <section class="section-img-footer">
+        <div class="row">
+            <h2>Front-End Developer</h2>
+        </div>
+    </section>
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Proyectos</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.google.com"><i class="fab fa-google"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>Pagina 100% responsive con solo Html5, Ccs3 y Media Queries</p>
+                <p>Creado por Luis Enrique 2020</p>
+            </div>
+        </footer>
+    
+</body>
+</html> 
